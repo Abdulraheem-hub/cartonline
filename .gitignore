@@ -12,3 +12,17 @@
 !override/**
 !modules/**
 !mails/**
+
+# Ignore these modules
+modules/blockreassurance/**
+modules/blockwishlist/**
+modules/contactform/**
+modules/dash*/**
+modules/gamification/**
+modules/gridhtml/**
+modules/klaviyo*/**
+modules/pagesnotfound/**
+modules/ps*
+modules/stats*
+
+*.bak
