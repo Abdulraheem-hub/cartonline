@@ -24,7 +24,6 @@ $(document).ready(function () {
     var showModal = prestashop.blockcart.showModal || function (modal) {};
 
     $(document).ready(function () {
-		console.log("coming from theme 27");
         $(document).on('click', '#js-cart-close', function (e) {
             $('#blockcart, #mobile-cart-wrapper, #_mobile_blockcart-content, #_desktop_blockcart-content').removeClass('show');
             e.stopPropagation();
@@ -40,7 +39,6 @@ $(document).ready(function () {
             function (event) {
                 var refreshURL = $('#blockcart').data('refresh-url');
                 var requestData = {};
-				console.log("coming from theme ");
                 if (event && event.reason && typeof event.resp !== 'undefined' && !event.resp.hasError) {
 
                     requestData = {

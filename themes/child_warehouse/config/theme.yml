@@ -123,7 +123,6 @@ global_settings:
       displayRegistrationBeforeForm:
         - iqitsociallogin
       displayFooterBefore:
-        - null
       displayCheckoutLoginFormAfter:
         - iqitsociallogin
       displayBackOfficeHeader:
